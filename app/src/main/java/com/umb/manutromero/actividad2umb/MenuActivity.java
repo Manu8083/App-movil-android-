@@ -97,7 +97,8 @@ public class MenuActivity extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.nav_send) {
-              // TODO: Crear dos actividades y llevar datos de una a otra
+            Intent intent = new Intent(MenuActivity.this, DataSendActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

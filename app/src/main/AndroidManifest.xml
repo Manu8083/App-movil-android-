@@ -28,7 +28,9 @@
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".WebViewActivity" />
-        <activity android:name=".DataActivity"></activity>
+        <activity android:name=".DataActivity" />
+        <activity android:name=".DataSendActivity" />
+        <activity android:name=".DataReceiveActivity"></activity>
     </application>
 
 </manifest>
