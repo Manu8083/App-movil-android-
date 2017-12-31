@@ -30,7 +30,8 @@
         <activity android:name=".WebViewActivity" />
         <activity android:name=".DataActivity" />
         <activity android:name=".DataSendActivity" />
-        <activity android:name=".DataReceiveActivity"></activity>
+        <activity android:name=".DataReceiveActivity" />
+        <activity android:name=".BrowserActivity"></activity>
     </application>
 
 </manifest>

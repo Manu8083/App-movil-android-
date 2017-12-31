@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umb.manutromero.actividad2umb.BrowserActivity">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_weight="0.11"
+            android:text="Ingrese su URL"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextURL"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginLeft="10dp"
+                android:text="URL" />
+
+            <EditText
+                android:id="@+id/CampoURL"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="52dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Btnbrowser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar URL"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

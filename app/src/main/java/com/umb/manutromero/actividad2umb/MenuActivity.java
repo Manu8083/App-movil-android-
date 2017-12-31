@@ -1,5 +1,7 @@
 package com.umb.manutromero.actividad2umb;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,6 +22,7 @@ import static android.content.Intent.ACTION_VIEW;
 
 public class MenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,9 +94,9 @@ public class MenuActivity extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.nav_browser) {
-            Log.d("broser","hola");
             // TODO: digitatr una pagina y luego buscar
-            Intent intent = new Intent(MenuActivity.this, WebViewActivity.class);
+
+            Intent intent = new Intent(MenuActivity.this, BrowserActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_send) {
